@@ -1,0 +1,41 @@
+﻿{
+    "id":  "ba504a29-1ad6-48aa-8dba-73abe7708ea7",
+    "name":  "Invoice Customizations",
+    "publisher":  "MyVAR",
+    "version":  "1.1.0.0",
+    "brief":  "",
+    "description":  "",
+    "platform":  "1.0.0.0",
+    "application":  "20.0.0.0",
+    "runtime":  "9.0",
+    "logo":  "",
+    "url":  "",
+    "EULA":  "",
+    "privacyStatement":  "",
+    "help":  "",
+    "target":  "Extension",
+    "screenshots":  [
+
+                    ],
+    "dependencies":  [
+
+                     ],
+    "idRanges":  [
+                     {
+                         "from":  50500,
+                         "to":  50549
+                     }
+                 ],
+    "features":  [
+
+                 ],
+    "resourceExposurePolicy":  {
+
+                               },
+    "internalsVisibleTo":  [
+
+                           ],
+    "keyVaultUrls":  [
+
+                     ]
+}
