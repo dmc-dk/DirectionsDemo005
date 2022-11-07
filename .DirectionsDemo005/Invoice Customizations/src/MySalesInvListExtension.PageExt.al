@@ -6,12 +6,12 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
         {
             group(Locking)
             {
-                Caption = 'Database locks';
+                Caption = 'Delivery';
 
                 action(DoSomething)
                 {
                     ApplicationArea = All;
-                    Caption = 'Execute';
+                    Caption = 'Very useful action';
 
                     trigger OnAction()
                     var
@@ -21,15 +21,15 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
 
                         exampleLockingTable.LockTable();
                         exampleLockingTable.FindFirst();
-                        Sleep(90000);
-                        Message('Finished the action that locked the table for 35 seconds');
+                        Sleep(5000);
+                        Message('Finished running the very useful action');
 
                     end;
                 }
                 action(DoSomethingElse)
                 {
                     ApplicationArea = All;
-                    Caption = 'Access Example Table';
+                    Caption = 'Less useful action';
 
                     trigger OnAction()
                     var
@@ -39,8 +39,8 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
 
                         exampleLockingTable.LockTable();
                         exampleLockingTable.FindFirst();
-                        Sleep(1000);
-                        Message('Finished the action that locked the table for 35 seconds');
+                        Sleep(5000);
+                        Message('Finished running less useful action');
 
                     end;
                 }

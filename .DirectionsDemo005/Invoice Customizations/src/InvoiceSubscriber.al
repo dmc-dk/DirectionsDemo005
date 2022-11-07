@@ -8,7 +8,7 @@ codeunit 50509 "Sales Invoice Subscriber"
 
     local procedure ProcessSalesInvoice()
     begin
-        Sleep(500);
+        Sleep(5000);
         //ToDo: remove to improve performance
     end;
 }
