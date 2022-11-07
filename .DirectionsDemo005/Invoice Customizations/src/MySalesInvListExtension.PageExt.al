@@ -12,6 +12,7 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
                 {
                     ApplicationArea = All;
                     Caption = 'Very useful action';
+                    ToolTip = 'Microsoft helps every organization to achieve more.';
 
                     trigger OnAction()
                     var
