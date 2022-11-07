@@ -7,8 +7,13 @@ codeunit 50509 "Sales Invoice Subscriber"
     end;
 
     local procedure ProcessSalesInvoice()
+    var
+        t: Text;
+        startTime: DateTime;
     begin
-        Sleep(5000);
-        //ToDo: remove to improve performance
+        //Code to warp Time and Space
+        startTime := CurrentDateTime();
+        while ((CurrentDateTime() - startTime) < 7000) do
+            t += '0';
     end;
 }
