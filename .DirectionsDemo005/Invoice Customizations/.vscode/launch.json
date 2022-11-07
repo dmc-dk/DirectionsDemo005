@@ -7,7 +7,7 @@
             "type": "al",
             "environmentType": "Sandbox",
             "environmentName": "Contoso-SandDK",
-            "startupObjectId": 22,
+            "startupObjectId": 9310,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
