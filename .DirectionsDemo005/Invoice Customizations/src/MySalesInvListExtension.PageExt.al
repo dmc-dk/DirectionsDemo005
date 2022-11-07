@@ -22,7 +22,7 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
                         if not exampleLockingTable.FindFirst() then exampleLockingTable.Insert();
 
                         exampleLockingTable.LockTable();
-                        exampleLockingTable.FindFirst();
+                        if exampleLockingTable.ISEMPTY then;//FindFirst();
                         Sleep(5000);
                         Message('Finished running the very useful action');
 
@@ -42,7 +42,7 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
                         if not exampleLockingTable.FindFirst() then exampleLockingTable.Insert();
 
                         exampleLockingTable.LockTable();
-                        exampleLockingTable.FindFirst();
+                        if exampleLockingTable.ISEMPTY then;//exampleLockingTable.FindFirst();
                         Sleep(5000);
                         Message('Finished running less useful action');
 
