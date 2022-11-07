@@ -13,6 +13,7 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
                     ApplicationArea = All;
                     Caption = 'Very useful action';
                     ToolTip = 'Microsoft helps every organization to achieve more.';
+                    Image = "1099Form";
 
                     trigger OnAction()
                     var
@@ -31,6 +32,8 @@ pageextension 50510 MySalesInvListExtension extends "Sales Invoice List"
                 {
                     ApplicationArea = All;
                     Caption = 'Less useful action';
+                    ToolTip = 'Microsoft helps every organization to achieve more.';
+                    Image = "1099Form";
 
                     trigger OnAction()
                     var
