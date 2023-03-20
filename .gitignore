@@ -11,3 +11,4 @@ rad.json
 .altemplates/
 cache_*
 .DirectionsDemo005/Invoice Customizations/.vscode/launch.json
+.vscode/launch.json
