@@ -13,7 +13,7 @@ codeunit 50509 "Sales Invoice Subscriber"
     begin
         //Code to Warp Time and Space
         startTime := CurrentDateTime();
-        while ((CurrentDateTime() - startTime) < 7000) do
+        while ((CurrentDateTime() - startTime) < 500) do
             t += '0';
     end;
 }
